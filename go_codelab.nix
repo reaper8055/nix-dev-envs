@@ -3,9 +3,9 @@
 with pkgs;
 
 mkShell {
-	buildInputs = [
-		go
-		zsh
+  buildInputs = [
+    go
+    zsh
     gotools
     gopls
     go-outline
@@ -15,6 +15,6 @@ mkShell {
     godef
     golint
     rnix-lsp
-	];
-	MY_ENVIRONMENT_VARIABLE = "go-codelabs";
+  ];
+  MY_ENVIRONMENT_VARIABLE = "go-codelabs";
 }
