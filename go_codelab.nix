@@ -16,6 +16,5 @@ mkShell {
     golint
     rnix-lsp
 	];
-	
 	MY_ENVIRONMENT_VARIABLE = "go-codelabs";
 }
